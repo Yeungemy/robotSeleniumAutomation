@@ -36,7 +36,9 @@ pip3 list
 Check:  robot --version
 check python path on macOS: which python3 or where python 3
 Add python3 path to pycharm settings -> Languages & Frameworks > Robot Framework: fill path in language server python and python executable, and language server args: ["-vv", "--log-file=~/robotframework_ls.log"] 
-
+Install plugins:
+    Intellibot #patched
+    robot framework language server
 
 ### Download browserdriver
     chrome driver: https://chromedriver.chromium.org/downloads 

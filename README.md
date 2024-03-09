@@ -23,6 +23,7 @@ Install pypy: https://formulae.brew.sh/formula/pypy or  https://www.pypy.org/dow
 Run the the following commands to install Robot and Selenium Framework
 python3 -m pip install --upgrade pip
 pip3 install --upgrade robotframework
+pip3 install robotframework-lsp
 pip3 install --upgrade robotframework-databaselibrary
 pip3 install --upgrade robotframework-pdf2textlibrary
 pip3 install --upgrade robotframework-requests
@@ -33,3 +34,10 @@ rfbrowser init
 pip3 list
 
 Check:  robot --version
+check python path on macOS: which python3 or where python 3
+Add python3 path to pycharm settings -> Languages & Frameworks > Robot Framework: fill path in language server python and python executable, and language server args: ["-vv", "--log-file=~/robotframework_ls.log"] 
+
+
+### Download browserdriver
+    chrome driver: https://chromedriver.chromium.org/downloads 
+    
